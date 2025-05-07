@@ -27,4 +27,4 @@ jobs:
 
       - name: Run schemachange deployment
         run: |
-          schemachange --config-file-name .\schemachange-config-yml 
+          schemachange --config-file-name schemachange-config.yml
