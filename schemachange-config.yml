@@ -1,0 +1,15 @@
+config-version: 1
+
+root-folder: 'scripts'
+
+modules-folder: null
+
+connections-file-path: 'connections.toml'
+
+connection-name: 'my_example_connection'
+
+change-history-table: DEMO_SCHEMACHANGE.SCHEMACHANGE.CHANGE_HISTORY
+
+create-change-history-table: true
+
+autocommit: false
