@@ -20,7 +20,7 @@ jobs:
 
       - name: Decode connections.toml
         run: |
-        echo "${{ secrets.CONNECTIONS_TOML_B64 }}" | base64 -d > connections.toml
+          echo "${{ secrets.CONNECTIONS_TOML_B64 }}" | base64 -d > connections.toml
 
       - name: Install dependencies
         run: pip install -r requirements.txt
